@@ -34,7 +34,7 @@ export default class AccountController {
       const addAccount = {
         id: uuidv4(),
         name: newAccount.name,
-        balance: 20000,
+        balance: 0,
       };
       accounts.push(addAccount);
       return res.status(200).json(addAccount);
