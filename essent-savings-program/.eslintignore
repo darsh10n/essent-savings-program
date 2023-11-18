@@ -1,0 +1,4 @@
+node_modules
+*.js
+tmp
+e2e
